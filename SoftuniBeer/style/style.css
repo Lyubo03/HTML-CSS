@@ -1,0 +1,52 @@
+body
+{
+    background-color: #F9D977;  
+    font-family: 'Calibri';
+
+}
+.topnav
+{
+    background-color: rgb(43, 41, 41);
+    overflow: hidden;
+    text-decoration: none;
+
+}
+.topnav a
+{
+    text-align: center;
+    color:white;
+    padding: 14px;
+    font-size:17px;
+    float: left;
+    display: block;
+    text-decoration: none;
+
+}
+.topnav a.logo
+{
+    padding:0px;
+    padding-top: 4px;
+    float: left;
+}
+.topnav a.btn-right
+{
+    float: right;
+}
+.topnav a.logo:hover
+{
+background-color: rgb(168, 168, 168);    
+}
+.topnav a:hover
+{
+ background-color:rgb(91, 214, 214);
+}
+.topnav a.active
+{
+    background-color:rgb(91, 214, 214);
+
+}
+h1
+{
+    font-size: 48px;
+    font-family: 'Calibri';
+}

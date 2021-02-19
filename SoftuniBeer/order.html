@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/form.css">
+        <title>Chill Beers</title>
+    </head>
+    <body>
+        <nav>
+            <div class="topnav">
+                <a href="index.html" class="logo"><img src="image/logo.png" /></a>
+                <a href="index.html">Home</a>
+                <a href="beers.html">Beers</a>
+                <a href="order.html" class="active">Order</a>
+                <a href="about-us.html">About us</a>
+                <a href="register.html" class="btn-right">Regiser</a>
+                <a href="log-in.html" class="btn-right">Log in</a>
+            </div>
+        </nav>
+
+        <main>
+            <center>
+                <h1>Order</h1>
+                <p>Brand</p>
+                <select>
+                    <option selected disabled>Select a brand</option>
+                    <option>Corona Extra 330ml</option>
+                    <option>Stella Artois 500ml</option>
+                    <option>Carlsberg 330ml</option>
+                    <option>Heineken 500ml</option>
+                </select>
+                <p>Quantity</p>
+                <input type="number" max="15" min="1" placeholder="Enter amount of beers(1-15)" />
+                <p>Destination</p>
+                <select>
+                    <option selected disabled>Select a destination</option>
+                    <option>Petrich</option>
+                    <option>Blagoevgrad</option>
+                    <option>Belogradchik</option>
+                    <option>Sofia</option>
+                    <option>Montana</option>
+                    <option>Vidin</option>
+                    <option>Mezdra</option>
+                    <option>Vratsa</option>
+                </select><br/>
+                    <p>Enter your birthdate</p>
+                    <input type="date" name="birthdate" placeholder="mm/dd/yyyy"
+                        />
+                    <p>Information which we should know about you</p>
+                    <textarea name="information" rows="10" cols="36" placeholder="Feel free to share!"></textarea><br/>
+                    <a  href="beers.html" class="button">Order</a>
+                </center>
+                
+            </main>
+
+            <footer> <hr/>
+                    <p><em>&copy 2021 - Chill Beers</em></p>
+                </footer>
+
+            </body>
+        </html>
